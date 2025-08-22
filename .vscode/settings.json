@@ -1,0 +1,7 @@
+{
+"github.copilot.chat.commitMessageGeneration.instructions": [
+    {
+        "text": "Follow the Conventional Commits specification (https://www.conventionalcommits.org/en/v1.0.0/) strictly for commit messages. Use the structure below:\n\n<type>[optional scope]: <description>\n\n[optional body]\n\n[optional footer(s)]\n\nCommit Types:\n'feat': A new feature\n'fix': A bug fix\n'docs': Documentation only changes\n'style': Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc.)\n'refactor': A code change that neither fixes a bug nor adds a feature\n'perf': A code change that improves performance\n'test': Adding missing tests or correcting existing tests\n'build': Changes that affect the build system or external dependencies\n'ci': Changes to CI configuration files and scripts\n'chore': Other changes that don't modify src or test files\n'revert': Reverts a previous commit\n\nUse and Scope:\nChoose an appropriate type and optional scope to describe the affected module or feature (e.g., 'feat(parser)', 'fix(validator)', 'docs(data)')\n\n"
+    }
+]
+}
